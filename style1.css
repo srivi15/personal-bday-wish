@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+header {
+	text-align: center;
+	text-orientation: bold;
+	font-size: 3rem;
+	color: #4C0470;
+}
+
+
+@-webkit-keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  from,
+  50%,
+  to {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+}
+
+
+.welcome {
+	animation-name: flash;
+	animation-duration: 4s;
+}
+
+
+.wish1 {
+	animation-name: flash;
+	animation-duration: 4s;
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+.bydevil {
+	animation-name: fadeInLeft;
+	animation-duration: 4s;
+}
+
+p {
+	text-align: center;
+	color: #79389A;
+}
+
+footer {
+	text-align: center;
+	text-shadow: 3px;
+	font-weight: bold;
+	font-size: 1rem;
+	animation-name: flash;
+	animation-duration: 4s;
+}

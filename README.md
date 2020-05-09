@@ -1,2 +1,3 @@
 # personal-bday-wish
-A website wishing a friend on his/her birthday with simple html and css with little animations.
+This is a simple website created to wish a friend.
+It uses HTML5 and CSS3 core concepts.
